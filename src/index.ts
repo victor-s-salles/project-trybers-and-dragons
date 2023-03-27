@@ -21,4 +21,4 @@ function runBattles(battles: Battle[]) {
   battles.forEach((battle) => battle.fight());
 }
 
-export { pvp, pve, runBattles, player1, player2, player3, monster1, monster2 };
+export { player1, player2, player3, monster1, monster2, pvp, pve, runBattles };
