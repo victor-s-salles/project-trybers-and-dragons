@@ -8,7 +8,7 @@ export default class Character implements Fighter {
   private _race: Race;
   private _archetype: Archetype;
   private _maxLifePoints: number;
-  private _lifePoints: number;
+  protected _lifePoints: number;
   private _strength: number;
   private _defense: number;
   private _dexterity: number;
